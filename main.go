@@ -1,8 +1,9 @@
 package main
 
 import (
-	routes "example/routes"
 	"os"
+
+	routes "github.com/varmaexe/golang-jwt/routes"
 
 	"github.com/gin-gonic/gin"
 )

@@ -1,8 +1,8 @@
 package routes
 
 import (
-	controller "example/controllers"
-	"example/middleware"
+	controller "github.com/varmaexe/golang-jwt/controllers"
+	"github.com/varmaexe/golang-jwt/middleware"
 
 	"github.com/gin-gonic/gin"
 )

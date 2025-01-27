@@ -1,9 +1,10 @@
 package middleware
 
 import (
-	helper "example/helpers"
 	"fmt"
 	"net/http"
+
+	helper "github.com/varmaexe/golang-jwt/helpers"
 
 	"github.com/gin-gonic/gin"
 )

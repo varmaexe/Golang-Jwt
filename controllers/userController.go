@@ -2,14 +2,15 @@ package controllers
 
 import (
 	"context"
-	"example/database"
-	helper "example/helpers"
-	"example/models"
 	"fmt"
 	"log"
 	"net/http"
 	"strconv"
 	"time"
+
+	"github.com/varmaexe/golang-jwt/database"
+	helper "github.com/varmaexe/golang-jwt/helpers"
+	"github.com/varmaexe/golang-jwt/models"
 
 	"github.com/gin-gonic/gin"
 	"github.com/go-playground/validator/v10"

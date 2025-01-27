@@ -2,10 +2,11 @@ package helpers
 
 import (
 	"context"
-	"example/database"
 	"log"
 	"os"
 	"time"
+
+	"github.com/varmaexe/golang-jwt/database"
 
 	jwt "github.com/golang-jwt/jwt/v5"
 	"go.mongodb.org/mongo-driver/bson"
