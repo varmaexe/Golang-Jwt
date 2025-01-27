@@ -3,6 +3,8 @@
 This project is a web application built with Go, Gin, and MongoDB. It includes user authentication, authorization, and CRUD operations for user data.
 
 ## Project Structure
+
+```sh
 .env
 controllers/
     userController.go
@@ -21,7 +23,7 @@ models/
 routes/
     authRouter.go
     userRouter.go
-
+```
 
 ## Environment Variables
 
@@ -95,8 +97,8 @@ The [main.go](main.go) file is the entry point of the application. It initialize
 2. Set up the environment variables in the `.env` file.
 3. Run the following command to start the server:
 
-```sh
+```go
 go run main.go
-
+```
 
 The server will start on the port specified in the .env file (default is 8000 if not set).
